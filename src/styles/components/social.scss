@@ -1,0 +1,47 @@
+.social {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    &__item {
+        margin: 0 5px;
+    }
+
+    &__link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 28px;
+        height: 28px;
+        text-decoration: none;
+        color: white;
+        border: 1px solid currentColor;
+        border-radius: 50%;
+
+        &:hover,
+        &:focus {
+            color: $color-dark-pink;
+        }
+    }
+
+    &__icon {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 768px) {
+    .social {
+        &__link {
+            width: 40px;
+            height: 40px;
+        }
+
+        &__icon {
+            font-size: 14px;
+        }
+    }
+}

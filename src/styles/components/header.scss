@@ -1,0 +1,26 @@
+.header {
+    padding: 40px;
+
+    &__logo {
+        width: 120px;
+        height: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .header {
+        padding: 64px 80px;
+
+        &__logo {
+            width: 200px;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .header {
+        width: 100%;
+        max-width: 1275px;
+        margin: 0 auto;
+    }
+}

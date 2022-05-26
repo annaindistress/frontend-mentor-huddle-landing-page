@@ -1,0 +1,29 @@
+.icon {
+    font-family: 'Icons' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    &--facebook {
+        &:before {
+            content: "\ea90";
+        }
+    }
+
+    &--instagram {
+        &:before {
+            content: "\ea92";
+        }
+    }
+
+    &--twitter {
+        &:before {
+            content: "\ea96";
+        }
+    }
+}

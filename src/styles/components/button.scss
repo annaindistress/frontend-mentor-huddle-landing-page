@@ -1,0 +1,30 @@
+.button {
+    display: inline-block;
+    min-width: 200px;
+    padding: 12px;
+    padding-bottom: 11px;
+    font-family: $font-title;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: $color-violet;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: $shadow-sm;
+
+    &:hover,
+    &:focus {
+        color: white;
+        background-color: $color-light-pink;
+    }
+}
+
+@media (min-width: 768px) {
+    .button {
+        padding-top: 14px;
+        padding-bottom: 15px;
+        font-size: 18px;
+        border-radius: 28px;
+        box-shadow: $shadow-lg;
+    }
+}
